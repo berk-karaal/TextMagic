@@ -9,7 +9,7 @@
 final int S_CENTER=0, S_LEFT=1, S_RIGHT=2, S_TOP=3, S_BOTTOM=4, S_RANDOM=5;
 
 ///////////////////////// CHANGE THESE /////////////////////////////////////////////
-String ytext = "  Don't forget to  \nsubscribe";  // Your text
+String ytext = "HELLO";  // Your text
 
 int startX = S_RANDOM;
 int startY = S_RANDOM;
@@ -23,10 +23,10 @@ int startY = S_RANDOM;
  S_BOTTOM (only for startY) -> All Dots start from bottom of screen
  */
 
-float objDistance = 5.0f;  // Distance between 2 dots (You can think like opposite density) (default: 15)
-float objRadius = 4f;  // Radius of dots (default: 10)
+float objDistance = 15.0f;  // Distance between 2 dots (You can think like opposite density) (default: 15)
+float objRadius = 10f;  // Radius of dots (default: 10)
 float objSpeed = 10.0f;  // Start speed of dots  (default: 10) (high speed is not recommended)
-float slowingRate = -2.0f; // (MAX 10) higher rate means slower finish speed (CAN BE NEGATIVE for fast movements)
+float slowingRate = 0.0f; // (MAX 10) higher rate means slower finish speed (CAN BE NEGATIVE for fast movements)
 ////////////////////////////////////////////////////////////////////////////////////
 
 import java.util.ArrayList;
